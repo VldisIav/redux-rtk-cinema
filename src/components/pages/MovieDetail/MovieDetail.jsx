@@ -27,6 +27,8 @@ const MovieDetail = () => {
   const responseStaff = useGetStaffQuery(id);
   console.log("Sequels and Prequels Data:", responseSequelsAndPrequels.data);
 
+  console.log("a");
+
   if (
     responseFilm.isLoading ||
     responseSequelsAndPrequels.isLoading ||
